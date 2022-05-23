@@ -25,11 +25,5 @@ func main() {
 	estudante := bases.NewEstudante("Silvio", "Neto", "1212121", "12/04/2015")
 	bases.ImprimeEstudante(estudante)
 
-	// ecommerce
-	//loja01 := bases.NovoEcommerce()
-	//produto01 := bases.NovoProduto("pequeno", "Celular", 5000)
-	//produto02 := bases.NovoProduto("medio", "TV", 5000)
-	//produto03 := bases.NovoProduto("grande", "Geladeira", 5000)
-	//loja01.Adicionar()
-
+	bases.ImprimeEcommerce()
 }
