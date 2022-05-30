@@ -1,7 +1,7 @@
 package main
 
 import (
-	".bootcamp-dh/aula04/bases"
+	bases2 ".bootcamp-dh/Bases/aula04/exercicios"
 	"fmt"
 	"log"
 )
@@ -9,9 +9,9 @@ import (
 func main() {
 	fmt.Println("-------- Aula 04 --------\n")
 	fmt.Println("-------- Dia 01 --------\n")
-	fmt.Println("-------- Exercicio 01 --------")
+	fmt.Println("-------- Exercicio 01 --------\n")
 
-	msg, err := bases.VerificaSalario(14000)
+	msg, err := bases2.VerificaSalario(14000)
 	if err != nil {
 		log.Println(err)
 	} else {
@@ -19,7 +19,7 @@ func main() {
 	}
 
 	fmt.Println("\n-------- Exercicio 02 --------")
-	msg2, err := bases.VerificaSalario2(16000)
+	msg2, err := bases2.VerificaSalario2(16000)
 	if err != nil {
 		log.Println(err)
 	} else {
@@ -27,7 +27,7 @@ func main() {
 	}
 
 	fmt.Println("\n-------- Exercicio 03 --------")
-	msg3, err := bases.VerificaSalario3(12000)
+	msg3, err := bases2.VerificaSalario3(12000)
 	if err != nil {
 		log.Println(err)
 	} else {
@@ -35,7 +35,7 @@ func main() {
 	}
 
 	fmt.Println("\n-------- Exercicio 04 --------")
-	salario, err := bases.CalculaSalario(75, 10)
+	salario, err := bases2.CalculaSalario(75, 10)
 	if err != nil {
 		log.Println(err)
 	} else {

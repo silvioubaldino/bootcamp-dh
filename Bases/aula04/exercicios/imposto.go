@@ -1,4 +1,4 @@
-package bases
+package exercicios
 
 type error interface {
 	Error() string
