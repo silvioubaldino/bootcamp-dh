@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nome": "Silvio",
+    "sobrenome": "Ubaldino",
+    "email": "silvio@silvio.com",
+    "idade": 25,
+    "altura": 1.72,
+    "ativo": true,
+    "dataCriacao": "30/05/2022 10:40:00"
+  },
+  {
+    "id": 2,
+    "nome": "Luiz",
+    "sobrenome": "Felipe",
+    "email": "luiz@felipe.com",
+    "idade": 28,
+    "altura": 1.74,
+    "ativo": true,
+    "dataCriacao": "30/05/2022 10:41:00"
+  },
+  {
+    "id": 3,
+    "nome": "Wesley",
+    "sobrenome": "Santos",
+    "email": "wesley@santos.com",
+    "idade": 27,
+    "altura": 1.77,
+    "ativo": true,
+    "dataCriacao": "30/05/2022 10:42:00"
+  },
+  {
+    "id": 4,
+    "nome": "Vinicius",
+    "sobrenome": "kisuco",
+    "email": "vinicius@kisuco.com",
+    "idade": 25,
+    "altura": 1.71,
+    "ativo": true,
+    "dataCriacao": "30/05/2022 10:43:00"
+  }
+]
